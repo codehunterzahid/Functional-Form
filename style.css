@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #eceff1;
+  display: flex;
+  align-items: center;
+}
+
+.login-form {
+  width: 30%;
+  height: 85%;
+  background-color: white;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.form {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.form-logo {
+  width: 100%;
+  height: 20vh;
+  margin-bottom: 7%;
+}
+
+.logo-img {
+  margin-left: 30%;
+  width: 40%;
+}
+
+.input-field {
+  margin-bottom: 13px;
+}
+
+.submit-btn {
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #637178;
+  color: white;
+  width: 100%;
+}
+
+.form-text {
+  text-align: center;
+  color: black;
+}
+
+.form-text a {
+  text-decoration: none;
+}
+
+.error-message {
+  color: #d93025;
+  font-size: 13px;
+  margin-bottom: -7px;
+  padding-left: 2px;
+  display: none;
+  font-family: Arial, sans-serif;
+}
+
+.success-message {
+  color: green;
+  font-size: 13px;
+  margin-bottom: -7px;
+  padding-left: 2px;
+  display: none;
+  font-family: Arial, sans-serif;
+}
+
+.input-error {
+  border: 1px solid #d93025 !important;
+  background-color: #ffecec;
+}
+
+@media screen and (max-width: 400px) {
+  .body {
+    overflow: auto;
+  }
+  .login-form {
+    width: 100%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+  .body {
+    overflow: auto;
+  }
+  .login-form {
+    width: 80%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .body {
+    overflow: auto;
+  }
+  .login-form {
+    width: 60%;
+  }
+
+  .form-logo {
+    margin-bottom: 10%;
+  }
+}
