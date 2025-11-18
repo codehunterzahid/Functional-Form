@@ -10,6 +10,7 @@ form.addEventListener("submit", function (e) {
 
   let isValid = true;
 
+  // ========== Error Message Function ==========
   function showError(input, message) {
     const parent = input.parentElement;
     parent.querySelector(".error-message").innerText = message;
@@ -17,6 +18,7 @@ form.addEventListener("submit", function (e) {
     input.classList.add("is-invalid");
   }
 
+  // ========== Succes Message Function ==========
   function successMsg(input, message) {
     const parent = input.parentElement;
     parent.querySelector(".success-message").innerText = message;
@@ -24,6 +26,7 @@ form.addEventListener("submit", function (e) {
     input.classList.remove(".error-message");
   }
 
+  // ========== Clear Error Function ==========
   function clearError(input) {
     const parent = input.parentElement;
     parent.querySelector(".error-message").innerText = "";
@@ -94,4 +97,3 @@ form.addEventListener("submit", function (e) {
     form.submit();
   }
 });
-
