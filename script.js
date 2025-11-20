@@ -17,6 +17,7 @@ form.addEventListener("submit", function (e) {
     parent.querySelector(".error-message").style.display = "block";
     input.classList.add("is-invalid");
   }
+  
 
   // ========== Succes Message Function ==========
   function successMsg(input, message) {
