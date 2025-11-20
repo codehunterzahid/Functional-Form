@@ -80,10 +80,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.input-error {
-    border: 1px solid #d93025 !important;
-    background-color: #ffecec;
-}
 
 @media screen and (max-width: 400px) {
     .body {
